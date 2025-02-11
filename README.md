@@ -56,7 +56,7 @@ DeviceProcessEvents
 | where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.0.6.exe"
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
 ```
-<img width="1212" alt="image" src=image-2.png>
+<img width="1212" alt="image" src=Pictures\image-2.png>
 
 ---
 
@@ -73,7 +73,7 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine  
 | order by Timestamp desc
 ```
-<img width="1212" alt="image" src=image-1.png>
+<img width="1212" alt="image" src=Pictures\image-1.png>
 
 ---
 
@@ -92,7 +92,7 @@ DeviceNetworkEvents
 | project Timestamp, DeviceName, InitiatingProcessAccountName, ActionType, RemoteIP, RemotePort, RemoteUrl, InitiatingProcessFileName, InitiatingProcessFolderPath  
 | order by Timestamp desc
 ```
-<img width="1212" alt="image" src=image-3.png>
+<img width="1212" alt="image" src=Pictures\image-3.png>
 
 ---
 
