@@ -38,7 +38,7 @@ DeviceFileEvents
 | order by Timestamp desc
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, Account = InitiatingProcessAccountName
 ```
-<img width="1212" alt="image" src=image-1.png>
+<img width="1212" alt="image" src=Pictures\image-1.png>
 
 
 ---
